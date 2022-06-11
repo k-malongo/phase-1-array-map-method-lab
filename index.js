@@ -15,3 +15,5 @@ const titleCased = () => {
 
   return tutorials.map((tutorial) => tutorial.split(" ").map((mapUpper)=>mapUpper[0].toUpperCase() + mapUpper.slice(1)).join(" "))
 }
+//it splits the array and changes the string into sub-array then changes the first letter 
+// to upper case then joins it into a new array
